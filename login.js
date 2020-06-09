@@ -8,10 +8,7 @@ $(document).ready(function(){
     }
     $("#btn1").click(function(e){
         e.preventDefault();
-        // alert("Authentication on process!!");
-
-    // var uname= $("#email").val();
-    // var pass= $("#pwd").val();
+     
      
     if ($("#email").val()==""|| $("#pwd").val()=="")
     {
@@ -24,7 +21,7 @@ $(document).ready(function(){
         {
             $("p").html("<h2> Success</h2>")
         },3000);
-        // window.location.replace("todo.html");
+       
 
         setTimeout(function()
         {
